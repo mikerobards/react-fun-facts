@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <img src="src\react-logo.png" width="40px" alt="react logo" />
+      <img src={process.env.PUBLIC_URL + "react-logo.png"} alt="react logo" />
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
