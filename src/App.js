@@ -6,7 +6,7 @@ import logo from './react-logo.png'
 function App() {
   return (
     <div>
-      <img src={logo} />
+      <img className="logo" src={logo} alt="react logo" />
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
