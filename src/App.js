@@ -1,8 +1,12 @@
+import React from "react"
+
+import logo from './react-logo.png'
+
 
 function App() {
   return (
     <div>
-      <img src={process.env.PUBLIC_URL + "react-logo.png"} alt="react logo" />
+      <img src={logo} />
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
