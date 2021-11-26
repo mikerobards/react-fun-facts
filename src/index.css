@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   min-height: 100vh;
+  background-color: #282d35;
 }
 
 nav {
@@ -12,16 +13,13 @@ nav {
   display: flex;
   align-items: center;
   padding: 30px 25px;
-  height: 90px;
+  height: 30px;
+  margin: 0;
 }
 
 nav > h3,
 nav > h4 {
   margin: 0;
-}
-
-nav > h3 {
-  margin-right: auto;
 }
 
 .logo {
@@ -33,10 +31,40 @@ nav > h3 {
   color: #61dafb;
   font-weight: 700;
   font-size: 22.2535px;
+  margin-right: auto;
 }
 
 .project-title {
   color: #deebf8;
   font-weight: 600;
   font-size: 16px;
+}
+
+.main {
+  color: #fff;
+  padding: 57px 27px;
+}
+
+.main-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  font-weight: 400;
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
 }
