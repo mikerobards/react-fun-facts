@@ -43,6 +43,9 @@ nav > h4 {
 .main {
   color: #fff;
   padding: 57px 27px;
+  background-image: url(./img/reactjs-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 65%;
 }
 
 .main-title {
